@@ -39,5 +39,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-theme-i18n`,
+      options: {
+        defaultLang: `en`,
+        configPath: require.resolve(`${__dirname}/static/i18n/config.json`),
+      },
+    },
   ],
 }
