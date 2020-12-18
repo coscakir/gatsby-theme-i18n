@@ -46,5 +46,11 @@ module.exports = {
         configPath: require.resolve(`${__dirname}/static/i18n/config.json`),
       },
     },
+    {
+      resolve: `gatsby-theme-i18n-react-intl`,
+      options: {
+        defaultLocale: `./static/i18n/en.json`,
+      },
+    },
   ],
 }
