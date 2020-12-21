@@ -11,7 +11,7 @@ export default function LanguageSwitcher() {
   config.forEach(item => (path = path.replace(`${item.code}/`, "")))
 
   return (
-    <>
+    <div className={styles.languageSwitcher}>
       {config.map(lang => (
         <LocalizedLink
           to={path}
@@ -25,6 +25,6 @@ export default function LanguageSwitcher() {
           {lang.code.toUpperCase()}
         </LocalizedLink>
       ))}
-    </>
+    </div>
   )
 }

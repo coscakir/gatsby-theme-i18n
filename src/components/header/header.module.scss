@@ -1,0 +1,28 @@
+.header {
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+
+  li {
+    a {
+      padding: 1rem;
+      display: flex;
+      font-weight: bold;
+
+      &.active {
+        color: rebeccapurple;
+      }
+    }
+  }
+}
