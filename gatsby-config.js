@@ -6,7 +6,7 @@ module.exports = {
       "A multilingual Gatsbyjs project example with language switcher",
     url: "https://gatsby-theme-i18n.netlify.app",
     image: "",
-    twitterUsername: "@coscakir",
+    twitterUsername: "@coskuncakir",
     siteUrl: `https://gatsby-theme-i18n.netlify.app/`,
   },
   plugins: [
